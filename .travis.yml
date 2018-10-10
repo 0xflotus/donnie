@@ -1,5 +1,5 @@
 language: node_js
-sudo: true
+sudo: required
 os:
   - linux
 node_js:
@@ -7,7 +7,7 @@ node_js:
   - 9
   - 8
 before_install:
-  - apt-get install opam
+  - sudo apt-get install opam
 install:
   - npm i || exit 1
   - opam install cmdliner
