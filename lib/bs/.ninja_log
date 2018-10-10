@@ -1,0 +1,13 @@
+# ninja log v5
+1	23	1539207623	Donnie.cmi	1915b4a870050a00
+1	42	1539207623	src/Demo.mlast	404b1e603a05d8fd
+42	52	1539207623	src/Demo.mlast.d	b6914811016b0bb4
+0	15	1539207623	src/Demo-Donnie.cmj	e13a64681121a94a
+0	15	1539207623	/Users/fthurm/github/donnie/src/Demo.bs.js	e13a64681121a94a
+0	15	1539207623	src/Demo-Donnie.cmi	e13a64681121a94a
+0	11	1539207700	Donnie.cmi	94c2afc826e9c2e7
+0	18	1539207700	src/Demo.mlast	205dbb752fd9beb4
+18	23	1539207700	src/Demo.mlast.d	becb6fc7976b1ff5
+0	11	1539207700	src/Demo-Donnie.cmj	220bc623f91a6144
+0	11	1539207700	/Users/fthurm/github/donnie/src/Demo.bs.js	220bc623f91a6144
+0	11	1539207700	src/Demo-Donnie.cmi	220bc623f91a6144
