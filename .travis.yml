@@ -13,4 +13,4 @@ install:
   - npm i || exit 1
 script:
   - npm run build || exit 1
-  - node src/Demo.bs.js
+  - node src/Demo.bs.js || exit 1
