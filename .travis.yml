@@ -5,8 +5,6 @@ os:
   - linux
 node_js:
   - 10
-  - 9
-  - 8
 before_install:
   - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install opam ; fi
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install opam ; fi
