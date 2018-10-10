@@ -12,7 +12,7 @@ before_install:
   - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install opam ; fi
 install:
   - npm i || exit 1
-  - opam install cmdliner
+  - opam init && opam install cmdliner
 script:
   - npm run build || exit 1
   - node src/Demo.bs.js || exit 1
