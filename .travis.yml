@@ -5,12 +5,10 @@ os:
   - linux
 node_js:
   - 10
-before_install:
-  - if [[ "$TRAVIS_OS_NAME" == "linux" ]]; then sudo apt-get install opam ; fi
-  - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew install opam ; fi
+  - 9
+  - 8
 install:
   - npm i || exit 1
-  - opam init && opam install cmdliner
 script:
   - npm run build || exit 1
   - node src/Demo.bs.js || exit 1
