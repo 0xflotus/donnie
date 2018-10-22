@@ -4,7 +4,8 @@ os:
   - osx
   - linux
 node_js:
-  - "latest"
+  - "dev"
+  - "stable"
   - 10
   - 9
   - 8
