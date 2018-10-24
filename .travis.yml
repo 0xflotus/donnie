@@ -5,6 +5,8 @@ os:
   - linux
 node_js:
   - "stable"
+  - 11
+  - 10.12
   - 10
   - 9
   - 8
